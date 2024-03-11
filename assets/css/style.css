@@ -303,7 +303,7 @@ footer {
 
 .footer__legal {
   color: var(--veryDarkGray);
-  font-size: 0.9;
+  font-size: 0.9em;
   text-align: right;
 }
 
