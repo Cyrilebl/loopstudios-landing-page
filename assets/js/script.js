@@ -12,8 +12,10 @@ hamburger.addEventListener("click", () => {
       header.style.backgroundColor = "black";
     }, 550);
   } else {
-    hamburger.src = "assets/images/icon-hamburger.svg";
-    header.style.backgroundImage = "url(assets/images/mobile/image-hero.jpg)";
-    header.style.backgroundColor = "";
+    setTimeout(() => {
+      hamburger.src = "assets/images/icon-hamburger.svg";
+      header.style.backgroundImage = "url(assets/images/mobile/image-hero.jpg)";
+      header.style.backgroundColor = "";
+    }, 150);
   }
 });
